@@ -1,0 +1,62 @@
+/* Tag selector 00001 -самый легкий элемент */
+/* селектор по тэгу */
+p {
+  /* color: #000000; --hexadecimal (16річна система) */
+  /* color: rgb(34, 46, 3); --RGB */
+  /* color: rgba(75, 95, 12, 0.5); --RGBA */
+  /* color: red; --словами */
+  color: blueviolet;
+  /* Sizes */
+  /* font-size: 1080px; 1px=1/96 inch(дюйма) */
+  /* font-size: 20pt; --typographic punkts */
+  font-size: 20px;
+  line-height: 1.3em;
+  /* em - относительная единица размера; 1em = один размер шрифта;em умножить на font-size px размер = line-height в px */
+}
+h1,
+h2,
+h3 {
+  font-size: 150px;
+  background-color: aquamarine;
+}
+
+/* id selector 0001 -элемент тяжелее */
+/* id селектор */
+#heading {
+  color: blueviolet;
+  font-size: 50px;
+}
+
+/* class selector 001 -элемент еще тяжелее */
+/* DRY - Don't Repeat Yourself (классовые селекторы) */
+.green-text {
+  color: green;
+}
+.big-text {
+  font-size: 90px;
+  color: blue;
+}
+
+/* inline(встроенные) style (прописывается на одной строке и применяется только к тому, где прописан)= 01 -элемент самый тяжелый*/
+h1 {
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+button{
+    text-transform: lowercase;
+}
+
+a{/* полное
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: red; */
+    /* сокращенное
+    text-decoration: underline wavy red;*/
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
