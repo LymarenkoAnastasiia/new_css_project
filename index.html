@@ -5,46 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS welcome</title>
-    <style>
-      /* Tag selector 00001 -самый легкий элемент */
-      /* селектор по тэгу */
-      p {
-        /* color: #000000; --hexadecimal (16річна система) */
-        /* color: rgb(34, 46, 3); --RGB */
-        /* color: rgba(75, 95, 12, 0.5); --RGBA */
-        /* color: red; --словами */
-        color: blueviolet;
-        /* Sizes */
-        /* font-size: 1080px; 1px=1/96 inch(дюйма) */
-        /* font-size: 20pt; --typographic punkts */
-        font-size: 20px;
-      }
-      h1,
-      h2,
-      h3 {
-        font-size: 150px;
-        background-color: aquamarine;
-      }
-
-      /* id selector 0001 -элемент тяжелее */
-      /* id селектор */
-      #heading {
-        color: blueviolet;
-        font-size: 50px;
-      }
-
-      /* class selector 001 -элемент еще тяжелее */
-      /* DRY - Don't Repeat Yourself (классовые селекторы) */
-      .green-text {
-        color: green;
-      }
-      .big-text {
-        font-size: 90px;
-        color: blue;
-      }
-
-      /* inline style (прописывается на одной строке и применяется только к тому, где прописан)= 01 -элемент самый тяжелый*/
-    </style>
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body title="Hello world">
     <h1>Heading</h1>
@@ -63,7 +24,7 @@
       Expedita inventore distinctio voluptatum aperiam iste! Quos?
     </p>
     <article>
-      <h2 id="heading" style="color: red">Subheading</h2>
+      <h2 id="heading">Subheading</h2>
       <p>
         <span class="green-text big-text">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
@@ -104,5 +65,8 @@
         ullam accusamus ipsum dolores?
       </p>
     </article>
+    <button>CLICK me</button>
+    <button>click ME</button>
+    <a href="http://google.com">Go to Google</a>
   </body>
 </html>
