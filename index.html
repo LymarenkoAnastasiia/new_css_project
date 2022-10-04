@@ -6,32 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS welcome</title>
     <style>
+        /* селектор по тэгу */
         p {
             /* color: #000000; --hexadecimal (16річна система) */
             /* color: rgb(34, 46, 3); --RGB */
             /* color: rgba(75, 95, 12, 0.5); --RGBA */
             /* color: red; --словами */
-            color: green;
+            color: blueviolet;
             /* Sizes */
             /* font-size: 1080px; 1px=1/96 inch(дюйма) */
             /* font-size: 20pt; --typographic punkts */
             font-size: 20px;
+        }
+
+        /* id селектор */
+        #heading {
+            color: blueviolet;
+            font-size: 50px;
+        }
+
+         /* DRY - Don't Repeat Yourself (классовые селекторы) */
+        .green-text{
+            color: green;
+        }
+        .big-text{
+            font-size: 90px;
         }
     </style>
   </head>
   <body title="Hello world">
     <h1>Heading</h1>
     <p>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto odit
+        <span class="green-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
+      Architecto odit
       laborum officiis beatae molestiae doloremque eaque blanditiis quaerat
       doloribus modi nostrum reprehenderit ullam, sequi placeat repellat!
-      Perspiciatis, unde impedit aperiam, aut incidunt saepe atque vitae
-      veritatis, labore exercitationem nulla officiis blanditiis culpa
+      <span>erspiciatis, unde impedit aperiam, aut incidunt saepe atque vitae
+        veritatis,</span>
+      P labore exercitationem nulla officiis blanditiis culpa
       doloribus. Expedita inventore distinctio voluptatum aperiam iste! Quos?
     </p>
     <article>
-      <h2>Subheading</h2>
+      <h2 id="heading">Subheading</h2>
       <p>
+        <span class="green-text big-text">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
         impedit vero ipsam laborum! Iste voluptates obcaecati commodi voluptas
         harum minus natus rem sint nobis error deserunt, repudiandae nisi
@@ -48,7 +66,7 @@
         perferendis numquam error quibusdam tenetur eaque deserunt? Culpa alias
         totam fuga dignissimos vero, voluptatum quasi, dolor earum nobis saepe
         odit dolores fugiat! Necessitatibus blanditiis illo excepturi, rem
-        quaerat voluptatum earum corporis accusamus eos voluptatibus nemo quam
+        quaerat voluptatum earum corporis </span>accusamus eos voluptatibus nemo quam
         error voluptatem est quidem molestias repudiandae impedit unde nostrum
         ad, numquam enim aliquam? Doloremque quis provident aperiam non
         repudiandae veritatis incidunt ducimus omnis, aut optio inventore?
