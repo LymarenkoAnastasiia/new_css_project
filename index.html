@@ -6,85 +6,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS welcome</title>
     <style>
-        /* селектор по тэгу */
-        p {
-            /* color: #000000; --hexadecimal (16річна система) */
-            /* color: rgb(34, 46, 3); --RGB */
-            /* color: rgba(75, 95, 12, 0.5); --RGBA */
-            /* color: red; --словами */
-            color: blueviolet;
-            /* Sizes */
-            /* font-size: 1080px; 1px=1/96 inch(дюйма) */
-            /* font-size: 20pt; --typographic punkts */
-            font-size: 20px;
-        }
+      /* Tag selector 00001 -самый легкий элемент */
+      /* селектор по тэгу */
+      p {
+        /* color: #000000; --hexadecimal (16річна система) */
+        /* color: rgb(34, 46, 3); --RGB */
+        /* color: rgba(75, 95, 12, 0.5); --RGBA */
+        /* color: red; --словами */
+        color: blueviolet;
+        /* Sizes */
+        /* font-size: 1080px; 1px=1/96 inch(дюйма) */
+        /* font-size: 20pt; --typographic punkts */
+        font-size: 20px;
+      }
+      h1,
+      h2,
+      h3 {
+        font-size: 150px;
+        background-color: aquamarine;
+      }
 
-        /* id селектор */
-        #heading {
-            color: blueviolet;
-            font-size: 50px;
-        }
+      /* id selector 0001 -элемент тяжелее */
+      /* id селектор */
+      #heading {
+        color: blueviolet;
+        font-size: 50px;
+      }
 
-         /* DRY - Don't Repeat Yourself (классовые селекторы) */
-        .green-text{
-            color: green;
-        }
-        .big-text{
-            font-size: 90px;
-        }
+      /* class selector 001 -элемент еще тяжелее */
+      /* DRY - Don't Repeat Yourself (классовые селекторы) */
+      .green-text {
+        color: green;
+      }
+      .big-text {
+        font-size: 90px;
+        color: blue;
+      }
+
+      /* inline style (прописывается на одной строке и применяется только к тому, где прописан)= 01 -элемент самый тяжелый*/
     </style>
   </head>
   <body title="Hello world">
     <h1>Heading</h1>
     <p>
-        <span class="green-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
-      Architecto odit
-      laborum officiis beatae molestiae doloremque eaque blanditiis quaerat
-      doloribus modi nostrum reprehenderit ullam, sequi placeat repellat!
-      <span>erspiciatis, unde impedit aperiam, aut incidunt saepe atque vitae
-        veritatis,</span>
-      P labore exercitationem nulla officiis blanditiis culpa
-      doloribus. Expedita inventore distinctio voluptatum aperiam iste! Quos?
+      <span class="green-text"
+        >Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span
+      >
+      Architecto odit laborum officiis beatae molestiae doloremque eaque
+      blanditiis quaerat doloribus modi nostrum reprehenderit ullam, sequi
+      placeat repellat!
+      <span
+        >erspiciatis, unde impedit aperiam, aut incidunt saepe atque vitae
+        veritatis,</span
+      >
+      P labore exercitationem nulla officiis blanditiis culpa doloribus.
+      Expedita inventore distinctio voluptatum aperiam iste! Quos?
     </p>
     <article>
-      <h2 id="heading">Subheading</h2>
+      <h2 id="heading" style="color: red">Subheading</h2>
       <p>
         <span class="green-text big-text">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
-        impedit vero ipsam laborum! Iste voluptates obcaecati commodi voluptas
-        harum minus natus rem sint nobis error deserunt, repudiandae nisi
-        adipisci exercitationem eveniet dolore mollitia debitis odio maxime,
-        itaque eaque tempora. Officiis, magni! Velit reprehenderit dolore
-        architecto itaque accusantium unde consequatur exercitationem minus
-        temporibus natus quam ratione qui veniam accusamus, quod consectetur
-        facilis, repellendus necessitatibus beatae veritatis repudiandae nisi.
-        Aut, molestiae ipsa corrupti quisquam placeat ipsam doloremque illo
-        aperiam totam repellendus molestias, nam facilis, tempora recusandae
-        itaque deserunt neque cumque est magnam! Minus quo molestiae rerum iusto
-        aliquam! Quidem quisquam repellat, necessitatibus exercitationem
-        quibusdam quam a! Minus exercitationem quam fuga non quo, reiciendis
-        perferendis numquam error quibusdam tenetur eaque deserunt? Culpa alias
-        totam fuga dignissimos vero, voluptatum quasi, dolor earum nobis saepe
-        odit dolores fugiat! Necessitatibus blanditiis illo excepturi, rem
-        quaerat voluptatum earum corporis </span>accusamus eos voluptatibus nemo quam
-        error voluptatem est quidem molestias repudiandae impedit unde nostrum
-        ad, numquam enim aliquam? Doloremque quis provident aperiam non
-        repudiandae veritatis incidunt ducimus omnis, aut optio inventore?
-        Deleniti eum voluptatem molestiae! Tempore quaerat, suscipit amet
-        temporibus quos accusantium consectetur aut quisquam ab veritatis
-        blanditiis. Nemo, quibusdam assumenda dolores voluptates aliquam
-        blanditiis perferendis unde ipsum. Accusantium, excepturi nam.
-        Cupiditate, veniam, alias accusamus natus aliquid nemo laboriosam
-        obcaecati rerum libero quibusdam itaque, sapiente sint ut consequatur
-        quis? Recusandae, nisi eos perferendis earum quos exercitationem ipsa
-        adipisci delectus. Debitis laboriosam possimus voluptatem delectus
-        itaque quam tempore aliquam cumque. Suscipit quibusdam harum eaque
-        porro, dolorum culpa nisi, veniam cum omnis consectetur perspiciatis
-        modi ullam sapiente incidunt aliquam dolore? Ipsam, ullam vel. Optio
-        doloribus reiciendis porro non soluta cum laboriosam impedit nulla
-        incidunt ullam aliquid deleniti, fugiat blanditiis suscipit temporibus
-        est voluptates mollitia velit amet dolores sapiente, enim delectus? Quas
-        fuga unde animi libero architecto ullam accusamus ipsum dolores?
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus
+          impedit vero ipsam laborum! Iste voluptates obcaecati commodi voluptas
+          harum minus natus rem sint nobis error deserunt, repudiandae nisi
+          adipisci exercitationem eveniet dolore mollitia debitis odio maxime,
+          itaque eaque tempora. Officiis, magni! Velit reprehenderit dolore
+          architecto itaque accusantium unde consequatur exercitationem minus
+          temporibus natus quam ratione qui veniam accusamus, quod consectetur
+          facilis, repellendus necessitatibus beatae veritatis repudiandae nisi.
+          Aut, molestiae ipsa corrupti quisquam placeat ipsam doloremque illo
+          aperiam totam repellendus molestias, nam facilis, tempora recusandae
+          itaque deserunt neque cumque est magnam! Minus quo molestiae rerum
+          iusto aliquam! Quidem quisquam repellat, necessitatibus exercitationem
+          quibusdam quam a! Minus exercitationem quam fuga non quo, reiciendis
+          perferendis numquam error quibusdam tenetur eaque deserunt? Culpa
+          alias totam fuga dignissimos vero, voluptatum quasi, dolor earum nobis
+          saepe odit dolores fugiat! Necessitatibus blanditiis illo excepturi,
+          rem quaerat voluptatum earum corporis </span
+        >accusamus eos voluptatibus nemo quam error voluptatem est quidem
+        molestias repudiandae impedit unde nostrum ad, numquam enim aliquam?
+        Doloremque quis provident aperiam non repudiandae veritatis incidunt
+        ducimus omnis, aut optio inventore? Deleniti eum voluptatem molestiae!
+        Tempore quaerat, suscipit amet temporibus quos accusantium consectetur
+        aut quisquam ab veritatis blanditiis. Nemo, quibusdam assumenda dolores
+        voluptates aliquam blanditiis perferendis unde ipsum. Accusantium,
+        excepturi nam. Cupiditate, veniam, alias accusamus natus aliquid nemo
+        laboriosam obcaecati rerum libero quibusdam itaque, sapiente sint ut
+        consequatur quis? Recusandae, nisi eos perferendis earum quos
+        exercitationem ipsa adipisci delectus. Debitis laboriosam possimus
+        voluptatem delectus itaque quam tempore aliquam cumque. Suscipit
+        quibusdam harum eaque porro, dolorum culpa nisi, veniam cum omnis
+        consectetur perspiciatis modi ullam sapiente incidunt aliquam dolore?
+        Ipsam, ullam vel. Optio doloribus reiciendis porro non soluta cum
+        laboriosam impedit nulla incidunt ullam aliquid deleniti, fugiat
+        blanditiis suscipit temporibus est voluptates mollitia velit amet
+        dolores sapiente, enim delectus? Quas fuga unde animi libero architecto
+        ullam accusamus ipsum dolores?
       </p>
     </article>
   </body>
