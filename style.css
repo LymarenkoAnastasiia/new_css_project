@@ -1,4 +1,7 @@
-/* Tag selector 00001 -самый легкий элемент */
+/* info about selectors' classes */
+
+
+/* Tag selector 0001 -самый легкий элемент */
 /* селектор по тэгу */
 p {
   /* color: #000000; --hexadecimal (16річна система) */
@@ -20,14 +23,8 @@ h3 {
   background-color: aquamarine;
 }
 
-/* id selector 0001 -элемент тяжелее */
-/* id селектор */
-#heading {
-  color: blueviolet;
-  font-size: 50px;
-}
 
-/* class selector 001 -элемент еще тяжелее */
+/* class selector 0010 -элемент еще тяжелее */
 /* DRY - Don't Repeat Yourself (классовые селекторы) */
 .green-text {
   color: green;
@@ -37,26 +34,38 @@ h3 {
   color: blue;
 }
 
-/* inline(встроенные) style (прописывается на одной строке и применяется только к тому, где прописан)= 01 -элемент самый тяжелый*/
+/* id selector 0100 -элемент тяжелее */
+/* id селектор */
+#heading {
+  color: blueviolet;
+  font-size: 50px;
+}
+
+/* inline(встроенные) style (применяется только к тому, где прописан)= 1000 -элемент самый тяжелый, лучше не использовать*/
+
+
+/* END */
+
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
-p{
-    text-align: justify;
+p {
+  text-align: justify;
 }
 
-button{
-    text-transform: lowercase;
+button {
+  text-transform: lowercase;
 }
 
-a{/* полное
+a {
+  /* полное
     text-decoration-line: underline;
     text-decoration-style: wavy;
     text-decoration-color: red; */
-    /* сокращенное
+  /* сокращенное
     text-decoration: underline wavy red;*/
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
