@@ -1,7 +1,15 @@
+/*@font-face{
+  font-family: 'Gemuno Libre';
+  src: url("./fonts/GemunuLibre-Regular.ttf") format("TrueType")
+ } --подключение с помощью скаченных шрифтов РАБОТАЕТ В СВЯЗКЕ, СМОТРЕТЬ НИЖЕ*/
+
 body {
-  /* font-family: 'Courier New', Courier, monospace; */
-  font-family: 'Peralta', cursive;
+  /* font-family: 'Courier New', Courier, monospace; --подключение с директории встроенной*/
+/* font-family: 'Gemunu Libre', sans-serif;
+font-family: 'Peralta', cursive; --подключение с линкой со страницы гугл фонтс*/
+/* font-family: 'Gemuno Libre', monospace; --подключение с помощью скаченных шрифтов */
 }
+
 
 /* info about selectors' classes */
 
