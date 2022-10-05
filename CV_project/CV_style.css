@@ -11,13 +11,20 @@
 }
 
 .information-main{
-
+    font-weight: bold;
 }
 
 .information-detailed{
-
+    text-align: left;
 }
 
 .fw-bold{
     font-weight: bold;
+}
+
+.proffesional-experience-info{
+
+}
+h2{
+    color: blue;
 }
