@@ -1,0 +1,20 @@
+body{
+    color: rgb(222, 134, 26);
+}
+.main-article{
+    font-size: 60px;
+    color: inherit;
+    border: 5px solid red;
+}
+
+.article-header{
+color: inherit;
+}
+
+.article-content{
+border: inherit;
+}
+
+.article-link{
+color: inherit;
+}
