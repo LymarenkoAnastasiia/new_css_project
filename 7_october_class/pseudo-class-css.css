@@ -16,10 +16,10 @@
     border: 2px double red;
 }
 
-.page-link:hover:not(button) {
+/* .page-link:hover:not(button) {
     background-color: blueviolet;
     color: yellow;
-}
+} */
 
 .page-link:focus {
     border: 10px solid green;
@@ -27,6 +27,11 @@
 
 input:focus {
     background-color: aquamarine;
+}
+
+.page-link:active {
+    background-color: orange;
+    color: black;
 }
 
 .navigation {
