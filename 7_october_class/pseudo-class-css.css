@@ -1,0 +1,13 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+    color: magenta;
+    font-size: 40px;
+    text-align: center;
+}
+
+div:hover {
+    background-color: magenta;
+    color: bisque;
+}
