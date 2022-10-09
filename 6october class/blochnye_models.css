@@ -1,3 +1,9 @@
-.image{
-    width: 300px;
+/* calculating sizes:
+width = content + padding + borders */
+
+.image {
+  width: 150px;
+  border: 3px dashed blue;
+  /* box-sizing: border-box делает так чтоб размер картинки высчитывался браузером автоматически браузером с расчетом width = content + padding + borders*/
+  box-sizing: border-box;
 }
