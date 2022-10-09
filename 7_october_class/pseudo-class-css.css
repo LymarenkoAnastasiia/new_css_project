@@ -1,23 +1,30 @@
-.link-list{
-
+.link-list {
 }
-.page-link{
-text-decoration: none;
-background-color: yellow;
-padding: 10px;
-color: blueviolet;
+.page-link {
+  text-decoration: none;
+  background-color: yellow;
+  padding: 10px;
+  color: blueviolet;
 }
 
- .page-link:hover{
+/* .page-link:hover {
+  background-color: blueviolet;
+  color: yellow;
+} */
+
+.page-link:not(a) {
+    border: 2px double red;
+}
+
+.page-link:hover:not(button) {
     background-color: blueviolet;
     color: yellow;
-} 
+}
 
-.navigation{
-
+.navigation {
 }
 
 .link-list li {
-    display: inline-block;
-    margin-top: 30px;
+  display: inline-block;
+  margin-top: 30px;
 }
