@@ -1,13 +1,23 @@
-div{
-    width: 100px;
-    height: 100px;
-    background-color: bisque;
-    color: magenta;
-    font-size: 40px;
-    text-align: center;
+.link-list{
+
+}
+.page-link{
+text-decoration: none;
+background-color: yellow;
+padding: 10px;
+color: blueviolet;
 }
 
-div:hover {
-    background-color: magenta;
-    color: bisque;
+ .page-link:hover{
+    background-color: blueviolet;
+    color: yellow;
+} 
+
+.navigation{
+
+}
+
+.link-list li {
+    display: inline-block;
+    margin-top: 30px;
 }
