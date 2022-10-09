@@ -21,6 +21,14 @@
     color: yellow;
 }
 
+.page-link:focus {
+    border: 10px solid green;
+}
+
+input:focus {
+    background-color: aquamarine;
+}
+
 .navigation {
 }
 
