@@ -2,9 +2,30 @@
 width = content + padding + borders */
 
 .image {
-  width: 150px;
-  border: 3px dashed blue;
+  width: 300px;
+  /* border: 3px dashed blue; */
+  border-top: 2px dotted black;
+  border-right: 3px solid green;
+  border-bottom: 4px dashed brown;
+  border-left: 5px double violet;
+  
   /* box-sizing: border-box делает так чтоб размер картинки высчитывался браузером автоматически браузером с расчетом width = content + padding + borders*/
   box-sizing: border-box;
+  /* padding: top right bottom left */
   padding: 5px 4px 3px 1px;
+
+/* padding: top left-right bottom */
+  padding: 5px 3px 2px;
+
+/* padding: top-bottom left-right */
+padding: 5px 2px;
+
+/* padding: all */
+padding: 10px;
+
+/*  */
+padding-top: 5px;
+padding-right: 5px;
+padding-bottom: 5px;
+padding-left: 5px;
 }
