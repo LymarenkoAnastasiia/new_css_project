@@ -1,16 +1,28 @@
 p {
-    color: blue;
+    position: relative;
     font-size: 20px;
     border: 1px solid black;
-    position: relative;
+    color: blue;
 }
 
-p::before {
-    content: '\275D';
-    color: red;
-}
+p::first-letter {
+    font-family: "Luxurious Script", cursive;
+    font-size: 30px;
+  }
+
+  p::before{
+    content: '\FF02';
+    color: rgb(245, 7, 46);
+    position: absolute;
+  }
 
 p::after {
-    content: '\275E';
-    color: green;
+  content: "\FF02";
+  color: pink;
 }
+
+
+p::first-line {
+    background-color: pink;
+  }
+  
