@@ -4,15 +4,9 @@
     font-size: 0;
 }
 
-.nav-list {
-background-color: orangered;
-
-}
-
 .list-item {
     display: inline-block;
     position: relative;
-    background-color: orangered;
     padding: 20px;
 }
 
@@ -24,16 +18,11 @@ width: 100px;
 }
 
 .sub-nav-list {
-    position: absolute;
-    display: block;
-    top: 62.5px;
-    left: 0;
+    left: -7px;
 }
 
 .sub-list-item {
 display: none;
-background-color: orangered;
-width: 110px;
 padding: 20px;
 }
 
@@ -41,30 +30,40 @@ padding: 20px;
     display: block;
 }
 
-.sub-sub-list-item {
-    background-color: orangered;
-    width: 110px;
-    padding: 20px;
-}
-
 .sub-sub-nav-list {
-    position: absolute;
-    display: block;
-    left: 150px;
-    top: 128px;
+top: 130px;
+left: 160px;
 }
 
+.sub-sub-list-item {
+display: none;
+padding: 20px;
+}
 
-
-.sub-sub-sub-list-item {
-    background-color: orangered;
-    width: 110px;
-    padding: 20px;
+.sub-list-item:hover .sub-sub-list-item {
+    display: block;
 }
 
 .sub-sub-sub-nav-list {
+top: 130px;
+left: 160px;
+}
+
+.sub-sub-sub-list-item {
+display: none;
+padding: 20px;
+}
+
+.sub-sub-list-item:hover .sub-sub-sub-list-item {
+    display: block;
+}
+
+.sub-list-position {
     position: absolute;
     display: block;
-    left: 147px;
-    top: 133px;
+    width: 160px;
+}
+
+.bg-c-orange {
+    background-color: orangered;
 }
