@@ -4,7 +4,12 @@ p {
 
 p::first-letter {
     font-size: 60px;
-    color: red;
+    color: blue;
     font-style: italic;
     font-weight: bold;
+}
+
+p::first-line {
+    background-color: yellow;
+    color: red;
 }
