@@ -1,5 +1,43 @@
-.paragraph {
-    position: relative;
-    left: 50px;
-    top: 50px;
+.container {
+    background-color: rgb(12, 123, 12);
+    height: 800px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.wrapper {
+    background-color: dodgerblue;
+    width: 80%;
+    height: 800px;
+}
+
+.inner {
+    text-align: center;
+    font-size: 40px;
+    /* width: 80px; */
+    /* height: 80px; */
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+.div1 {
+
+}
+
+.div2 {
+position: relative;
+top: 10px;
+left: 20px;
+}
+
+.div3 {
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.div4 {
+
 }
