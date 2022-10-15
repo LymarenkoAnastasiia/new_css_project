@@ -13,3 +13,8 @@ p::first-line {
     background-color: yellow;
     color: red;
 }
+
+p::selection {
+    background-color: blueviolet;
+    color: pink;
+}
