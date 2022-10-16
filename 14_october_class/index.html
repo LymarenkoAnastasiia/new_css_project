@@ -1,21 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
     <form class="form" action="" method="get">
-        <h2>Sign In</h2>
+      <h2>Sign In</h2>
+      <fieldset>
+        <legend>Auth Info</legend>
+
         <label for="email-form">Type your email</label>
-        <input type="text" placeholder="example@mail.com" autofocus id="email-form" name="email">
+        <input
+          type="text"
+          placeholder="example@mail.com"
+          autofocus
+          id="email-form"
+          name="email"
+          pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+"
+        />
         <label for="password-form">Type your password</label>
-        <input type="password" placeholder="password" id="password-form" name="password">
-    
-        <button type="submit">Sign In</button>
+        <input
+          type="password"
+          placeholder="password"
+          id="password-form"
+          name="password"
+        />
+      </fieldset>
+      <input type="date" placeholder="Birthday" name="birthday" />
+
+      <label><input type="radio" value="Male" name="gender" /> Male</label>
+      <label><input type="radio" value="Female" name="gender" />Female</label>
+      <label
+        ><input type="radio" value="Nonbinary" name="gender" />Nonbinary</label
+      >
+      <label> <input type="checkbox" name="is-agree" />Agree to promo </label>
+      <input type="file" />
+      <fieldset>
+        <legend>Choose your city</legend>
+        <select name="city">
+          <option value="Kiyv">Kiyv</option>
+          <option value="Odesa">Odesa</option>
+          <optgroup label="Dnipro oblast">
+            <option value="Dnipro">Dnipro</option>
+            <option value="Kryvyi-Rig">Kryvyi Rig</option>
+            <option value="Marganets">Marganets</option>
+            <option value="Pavlograd">Pavlograd</option>
+          </optgroup>
+          <option value="Kharkiv">Kharkiv</option>
+        </select>
+      </fieldset>
+      <button type="submit">Sign In</button>
     </form>
-</body>
+  </body>
 </html>
