@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <form class="form">
+    <form class="form" action="" method="get">
         <h2>Sign In</h2>
         <label for="email-form">Type your email</label>
-        <input type="text" placeholder="email" autofocus id="email-form">
-        <label>Type your password
-        <input type="password" placeholder="password">
-    </label>
-        <button>Sign In</button>
+        <input type="text" placeholder="example@mail.com" autofocus id="email-form" name="email">
+        <label for="password-form">Type your password</label>
+        <input type="password" placeholder="password" id="password-form" name="password">
+    
+        <button type="submit">Sign In</button>
     </form>
 </body>
 </html>
