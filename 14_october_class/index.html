@@ -39,7 +39,7 @@
       >
       <label> <input type="checkbox" name="is-agree" />Agree to promo </label>
       <input type="file" />
-      <fieldset>
+      <!-- <fieldset> 
         <legend>Choose your city</legend>
         <select name="city">
           <option value="Kiyv">Kiyv</option>
@@ -52,6 +52,19 @@
           </optgroup>
           <option value="Kharkiv">Kharkiv</option>
         </select>
+      </fieldset>-->
+      <fieldset>
+        <legend>Choose your city</legend>
+        <input type="text" name="city" list="city-list">
+        <datalist id="city-list">
+            <option value="Kiyv"></option>
+            <option value="Odesa"></option>
+              <option value="Dnipro"></option>
+              <option value="Kryvyi Rig"></option>
+              <option value="Marganets"></option>
+              <option value="Pavlograd"></option>
+            <option value="Kharkiv"></option>
+        </datalist>
       </fieldset>
       <button type="submit">Sign In</button>
     </form>
