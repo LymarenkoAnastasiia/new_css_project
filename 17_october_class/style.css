@@ -3,14 +3,17 @@
     font-size: 16px;
 }
 
-@media screen {
-    ul {
-        font-size: 0;
-    }
-    
+li {
+    display: inline-block;
+    background-color: red;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 500px) {
     li {
-        display: inline-block;
-        background-color: red;
+        display: block;
+        background-color: rgb(30, 175, 67);
         padding: 10px;
         font-size: 1.5rem;
     }
