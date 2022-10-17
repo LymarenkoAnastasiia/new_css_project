@@ -1,15 +1,21 @@
-.form {
-    display: flex;
-    flex-direction: column;
-    max-width: 250px;
+* {
+    box-sizing: border-box;
+    font-size: 16px;
 }
 
-.avail-options {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
+ul {
+    font-size: 0;
 }
 
-.radio {
+li {
     display: inline-block;
+    background-color: red;
+    padding: 10px;
+    font-size: 1.5rem;
 }
+
+/*
+1 em = 1 parent font-size
+rem = relative em (root em)
+1 rem = 1 font-size root
+*/
