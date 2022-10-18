@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.welcome-screen {
+  min-height: 150vh;
+  width: 100%;
+  background-size: cover;
+  background-image: url(./assets/images/ракушка2.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #926239;
+  
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h1,
+p {
+  margin-bottom: 15px;
+}
+
+button {
+  width: 90px;
+  height: 30px;
+  border: 1px solid #926239;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 255, 0);
+  color: #926239;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.text-button {
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+button:hover {
+  background-color: #926239;
+  color: white;
+}
+
+.p1 {
+    text-align: center;
+    background-color: #926239;
+    color: white;
+    padding: 10px;
+}
+
+.p2 {
+    text-align: center;
+    background-color: white;
+    color: #926239;
+    padding: 10px;
+}
+
+
+.p3and5 {
+    text-align: left;
+    background-color: #926239;
+    color: white;
+    padding: 10px;
+    width: 66vw;
+}
+
+.p4 {
+    text-align: left;
+    background-color: white;
+    color: #926239;
+    padding: 10px;
+}
+footer {
+    display: flex;
+}
